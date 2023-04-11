@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+#principal {
+    width: 1200px;
+    height: 1400px;
+    padding: 50px;
+    margin: 15px;
+    text-decoration: none;
+}
+#cabecera {
+    width: 100%;
+    height: 100px;
+    background-color: #ffdc80;
+    color: #f77737;
+    line-height: 90px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+}
+#contenido-cabecera{
+    margin-left: 40px;
+}
+#nombre{
+    font-size: xx-small;
+    line-height: 1px;
+}
+#contenido {
+    padding: 0px;
+}
+
+#contenido ul li {
+    
+    border-right: 1px solid  #ccc;
+    display: inline-block;
+    padding: 15px;
+    background-color: #eeee;
+}
+
+#contenido ul li:hover {
+    background-color: #ffdc80;
+}
+
+#contenido ul li a {
+    color: rgb(14, 12, 12);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#contenido ul li:nth-child(3){
+    background-color: #ffdc80;
+}
+#contenido ul li a:hover{
+    color:#f77737 ;
+}
+#cajas{
+    width: 40%;
+    float: left;
+    margin: 5px;
+}
+#seccion1{
+    margin: 15px;
+    width: 100%;
+    height: 30%;
+    float: left;
+    text-align: center;
+}
+#seccion2{
+    margin-top: 200px;
+    width: 1000px;
+    font-size: x-large;
+    text-align:left;
+}
+#barra-l {
+    margin: 5px;
+    text-align: center;
+    width: 50%;
+    height: 40%;
+    padding: 50px;
+    float:right;
+    overflow-y:scroll;
+}
+#barra-l >h1{
+    color: #f77737;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+#derechos{
+    cursor: pointer;
+    margin-top: 100px;
+    text-align: center;
+}
